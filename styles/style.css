@@ -1,0 +1,59 @@
+/* fonts  */
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Poppins:wght@500&family=Ubuntu&display=swap');
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+}
+
+.container {
+    width: 1100px;
+
+
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Banner Style */
+.banner {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: #161616;
+    color: #ffffff;
+    margin-top: 30px;
+    border-radius: 30px;
+}
+
+.banner-titles {
+    width: 60%;
+    text-align: start;
+    padding: 15%;
+}
+
+.banner.h1 {
+    font-size: 70px;
+    font-weight: 700;
+
+
+}
+
+.banner-image {
+
+    margin-top: 90px;
+}
+
+.button a {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #ff5e00;
+    width: 120px;
+    padding: 5px;
+    border-radius: 3px;
+
+}
